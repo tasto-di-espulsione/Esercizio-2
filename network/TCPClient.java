@@ -1,7 +1,7 @@
 /**
  * from network/..
  * javac network/TcpClient.java
- * java network.TcpClient 
+ * java network.TCPClient 
  */
 package network;
 
@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 //import java.util.Scanner;
 
-public class TcpClient {
+public class TCPClient {
 	public static void main(String[] args) throws Exception {
 		
 		String severAddress="127.0.0.1";  // localhost

@@ -1,7 +1,7 @@
 /**
  * from network/..
- * javac network/TcpServer.java
- * java network.TcpServer 
+ * javac network/TCPServer.java
+ * java network.TCPServer 
  */
 package network;
 
@@ -10,7 +10,7 @@ import java.io.DataOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class TcpServer {
+public class TCPServer {
 	public static void main(String[] args) throws Exception {
 		
 		int severPort=8765;
